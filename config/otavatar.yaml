@@ -1,4 +1,4 @@
-distributed: True
+distributed: False
 image_to_tensorboard: True
 snapshot_save_iter: 100
 snapshot_save_epoch: 5
