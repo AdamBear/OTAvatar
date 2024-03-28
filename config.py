@@ -87,6 +87,7 @@ class Config(AttrDict):
         self.logging_iter = 100
         self.image_to_tensorboard=False
         self.which_iter = args.which_iter
+        self.local_rank = args.local_rank
         self.resume = not args.no_resume
         self.device = "cuda"
 
