@@ -88,7 +88,7 @@ class Config(AttrDict):
         self.image_to_tensorboard=False
         self.which_iter = args.which_iter
         self.resume = not args.no_resume
-
+        self.device = "cuda"
 
         self.checkpoints_dir = args.checkpoints_dir
         self.name = args.name
